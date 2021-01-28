@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <title>Product Site</title>
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Oswald&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <!-- Custom CSS -->
+    <link href="css/custom.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- Navigation -->
+    <header id="header">
+      <nav>
+        <a href="#">My First Product Site</a>
+      </nav>
+    </header>
+
+    <!-- Page Content -->
+
+    <main class="productlist">
+      <template id="productTemplate">
+        <article class="product">
+          <img class="product_image" src="" alt="" />
+          <section class="productbody">
+            <h3 class="data_name"></h3>
+            <p></p>
+            <h4 class="data_price">49,-</h4>
+            <h4 class="data_discount">DISC,-</h4>
+
+            <button>See details</button>
+          </section>
+        </article>
+      </template>
+    </main>
+
+    <footer>
+      <p>Copyright &copy; Jonas</p>
+    </footer>
+
+    <div class="modal-background hide">
+      <div class="modal-content">
+        <h3 class="modal-name">NAME</h3>
+        <img src="" alt="" class="modal-image" />
+        <p class="modal-description">LONG DESCRIPTION</p>
+        <h4 class="modal-price">PRICE</h4>
+      </div>
+    </div>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
